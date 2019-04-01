@@ -25,7 +25,7 @@
 			</view>
 			<view class="flexbox" @tap="radioFc">
 				<cover-image class="radiobtn" :src="is_select == true?'../../static/select.png':'../../static/noselect.png'"></cover-image>
-				<view>余额 {{amount}}元</view>
+				<view>余额 {{amount}}元<input type="" /></view>
 			</view>
 			<view class="rui-flex">
 				<text>定时发货：</text>
